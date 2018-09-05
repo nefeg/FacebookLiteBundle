@@ -1,0 +1,6 @@
+parameters:
+
+    facebook:
+        app_id: <app id>
+        app_secret: <app secret>
+        graph_api: 'v2.12'
