@@ -6,13 +6,13 @@
  * Time: 21:52
  */
 
-namespace App\FacebookLiteBundle;
+namespace Umbrella\FacebookLiteBundle;
 
 
 /**
  * Interface FacebookUserInterface
  *
- * @package App\FacebookLiteBundle
+ * @package Umbrella\FacebookLiteBundle
  */
 interface FacebookUserInterface
 {
@@ -23,7 +23,7 @@ interface FacebookUserInterface
 
 //	/**
 //	 * @param string $fbId
-//	 * @return \App\FacebookLiteBundle\FacebookUserInterface
+//	 * @return \Umbrella\FacebookLiteBundle\FacebookUserInterface
 //	 */
 //	public function setFbId(string $fbId) :FacebookUserInterface;
 }

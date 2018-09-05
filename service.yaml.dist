@@ -10,5 +10,5 @@ services:
         arguments: [ '%facebook%' ]
 
     umbrella.facebook.manager:
-        class: App\FacebookLiteBundle\Service\FacebookService
+        class: Umbrella\FacebookLiteBundle\Service\FacebookService
         arguments: [ "@umbrella.facebook"]

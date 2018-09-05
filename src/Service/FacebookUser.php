@@ -6,14 +6,14 @@
  * Time: 17:55
  */
 
-namespace App\FacebookLiteBundle\Service;
+namespace Umbrella\FacebookLiteBundle\Service;
 
-use App\FacebookLiteBundle\FacebookUserInterface;
+use Umbrella\FacebookLiteBundle\FacebookUserInterface;
 
 /**
  * Class FacebookUser
  *
- * @package App\FacebookLiteBundle\Service
+ * @package Umbrella\FacebookLiteBundle\Service
  */
 class FacebookUser implements FacebookUserInterface
 {

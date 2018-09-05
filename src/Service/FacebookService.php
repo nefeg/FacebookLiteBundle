@@ -1,9 +1,9 @@
 <?php
 
-namespace App\FacebookLiteBundle\Service;
+namespace Umbrella\FacebookLiteBundle\Service;
 
-use App\FacebookLiteBundle\FacebookServiceInterface;
-use App\FacebookLiteBundle\FacebookUserInterface;
+use Umbrella\FacebookLiteBundle\FacebookServiceInterface;
+use Umbrella\FacebookLiteBundle\FacebookUserInterface;
 use Facebook\Facebook;
 use Facebook\SignedRequest;
 
@@ -29,9 +29,9 @@ class FacebookService implements FacebookServiceInterface
     }
 
 	/**
-	 * @param \App\FacebookLiteBundle\FacebookUserInterface $User
+	 * @param \Umbrella\FacebookLiteBundle\FacebookUserInterface $User
 	 * @param string                                        $token
-	 * @return \App\FacebookLiteBundle\FacebookUserInterface
+	 * @return \Umbrella\FacebookLiteBundle\FacebookUserInterface
 	 * @throws \Facebook\Exceptions\FacebookSDKException
 	 */
 	public function getByAccessToken(string $token, FacebookUserInterface $User = null) : ?FacebookUserInterface{
@@ -42,10 +42,10 @@ class FacebookService implements FacebookServiceInterface
     }
 
 	/**
-	 * @param \App\FacebookLiteBundle\FacebookUserInterface $User
+	 * @param \Umbrella\FacebookLiteBundle\FacebookUserInterface $User
 	 * @param string                                        $code
 	 * @param string                                        $redirectUri
-	 * @return \App\FacebookLiteBundle\FacebookUserInterface
+	 * @return \Umbrella\FacebookLiteBundle\FacebookUserInterface
 	 * @throws \Facebook\Exceptions\FacebookSDKException
 	 */
 	public function getByCode(string $code, string $redirectUri, FacebookUserInterface $User = null)  : ?FacebookUserInterface{
@@ -59,9 +59,9 @@ class FacebookService implements FacebookServiceInterface
     }
 
 	/**
-	 * @param \App\FacebookLiteBundle\FacebookUserInterface $User
+	 * @param \Umbrella\FacebookLiteBundle\FacebookUserInterface $User
 	 * @param string                                        $rawSignedRequest
-	 * @return \App\FacebookLiteBundle\FacebookUserInterface|null
+	 * @return \Umbrella\FacebookLiteBundle\FacebookUserInterface|null
 	 * @throws \Facebook\Exceptions\FacebookSDKException
 	 */
 	public function getBySignedRequest(string $rawSignedRequest, FacebookUserInterface $User = null)  : ?FacebookUserInterface{

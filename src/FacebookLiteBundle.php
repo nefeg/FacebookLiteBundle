@@ -6,7 +6,7 @@
  * Time: 23:30
  */
 
-namespace App\FacebookLiteBundle;
+namespace Umbrella\FacebookLiteBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

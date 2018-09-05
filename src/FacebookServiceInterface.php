@@ -6,33 +6,33 @@
  * Time: 16:34
  */
 
-namespace App\FacebookLiteBundle;
+namespace Umbrella\FacebookLiteBundle;
 
 
 /**
  * Interface FacebookServiceInterface
  *
- * @package App\FacebookLiteBundle
+ * @package Umbrella\FacebookLiteBundle
  */
 Interface FacebookServiceInterface
 {
 
 	/**
 	 * @param string $token
-	 * @return \App\FacebookLiteBundle\FacebookUserInterface
+	 * @return \Umbrella\FacebookLiteBundle\FacebookUserInterface
 	 */
 	public function getByAccessToken(string $token) :?FacebookUserInterface;
 
 	/**
 	 * @param string $code
 	 * @param string $redirectUri
-	 * @return \App\FacebookLiteBundle\FacebookUserInterface
+	 * @return \Umbrella\FacebookLiteBundle\FacebookUserInterface
 	 */
 	public function getByCode(string $code, string $redirectUri)  :?FacebookUserInterface;
 
 	/**
 	 * @param string $rawSignedRequest
-	 * @return \App\FacebookLiteBundle\FacebookUserInterface
+	 * @return \Umbrella\FacebookLiteBundle\FacebookUserInterface
 	 */
 	public function getBySignedRequest(string $rawSignedRequest)  :?FacebookUserInterface;
 }
