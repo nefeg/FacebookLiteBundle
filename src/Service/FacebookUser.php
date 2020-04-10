@@ -1,19 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: omni
- * Date: 16.07.2018
- * Time: 17:55
- */
 
-namespace Umbrella\FacebookLiteBundle\Service;
+namespace FacebookLiteBundle\Service;
 
-use Umbrella\FacebookLiteBundle\FacebookUserInterface;
+use FacebookLiteBundle\FacebookUserInterface;
 
 /**
  * Class FacebookUser
  *
- * @package Umbrella\FacebookLiteBundle\Service
+ * @package FacebookLiteBundle\Service
  */
 class FacebookUser implements FacebookUserInterface
 {

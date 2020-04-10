@@ -5,10 +5,10 @@ services:
         public: true         # this makes public all the services defined in this file
 
 
-    umbrella.facebook:
+    aimchat.facebook:
         class: Facebook\Facebook
         arguments: [ '%facebook%' ]
 
-    umbrella.facebook.manager:
-        class: Umbrella\FacebookLiteBundle\Service\FacebookService
-        arguments: [ "@umbrella.facebook"]
+    aimchat.facebook.manager:
+        class: FacebookLiteBundle\Service\FacebookService
+        arguments: [ "@aimchat.facebook"]

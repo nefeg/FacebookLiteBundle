@@ -1,18 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: omni
- * Date: 12.07.2018
- * Time: 21:52
- */
 
-namespace Umbrella\FacebookLiteBundle;
-
+namespace FacebookLiteBundle;
 
 /**
  * Interface FacebookUserInterface
  *
- * @package Umbrella\FacebookLiteBundle
+ * @package FacebookLiteBundle
  */
 interface FacebookUserInterface
 {
@@ -23,7 +16,7 @@ interface FacebookUserInterface
 
 //	/**
 //	 * @param string $fbId
-//	 * @return \Umbrella\FacebookLiteBundle\FacebookUserInterface
+//	 * @return \FacebookLiteBundle\FacebookUserInterface
 //	 */
 //	public function setFbId(string $fbId) :FacebookUserInterface;
 }
