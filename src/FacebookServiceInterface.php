@@ -1,30 +1,30 @@
 <?php
 
-namespace FacebookLiteBundle;
+namespace Aimchat\FacebookLiteBundle;
 
 /**
  * Interface FacebookServiceInterface
  *
- * @package FacebookLiteBundle
+ * @package Aimchat\FacebookLiteBundle
  */
 Interface FacebookServiceInterface
 {
 	/**
 	 * @param string $token
-	 * @return \FacebookLiteBundle\FacebookUserInterface
+	 * @return \Aimchat\FacebookLiteBundle\FacebookUserInterface
 	 */
 	public function getByAccessToken(string $token) :?FacebookUserInterface;
 
 	/**
 	 * @param string $code
 	 * @param string $redirectUri
-	 * @return \FacebookLiteBundle\FacebookUserInterface
+	 * @return \Aimchat\FacebookLiteBundle\FacebookUserInterface
 	 */
 	public function getByCode(string $code, string $redirectUri)  :?FacebookUserInterface;
 
 	/**
 	 * @param string $rawSignedRequest
-	 * @return \FacebookLiteBundle\FacebookUserInterface
+	 * @return \Aimchat\FacebookLiteBundle\FacebookUserInterface
 	 */
 	public function getBySignedRequest(string $rawSignedRequest)  :?FacebookUserInterface;
 }

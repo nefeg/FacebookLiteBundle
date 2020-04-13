@@ -1,6 +1,6 @@
 <?php
 
-namespace FacebookLiteBundle;
+namespace Aimchat\FacebookLiteBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

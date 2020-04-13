@@ -1,13 +1,13 @@
 <?php
 
-namespace FacebookLiteBundle\Service;
+namespace Aimchat\FacebookLiteBundle\Service;
 
-use FacebookLiteBundle\FacebookUserInterface;
+use Aimchat\FacebookLiteBundle\FacebookUserInterface;
 
 /**
  * Class FacebookUser
  *
- * @package FacebookLiteBundle\Service
+ * @package Aimchat\FacebookLiteBundle\Service
  */
 class FacebookUser implements FacebookUserInterface
 {

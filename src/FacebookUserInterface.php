@@ -1,11 +1,11 @@
 <?php
 
-namespace FacebookLiteBundle;
+namespace Aimchat\FacebookLiteBundle;
 
 /**
  * Interface FacebookUserInterface
  *
- * @package FacebookLiteBundle
+ * @package Aimchat\FacebookLiteBundle
  */
 interface FacebookUserInterface
 {
@@ -16,7 +16,7 @@ interface FacebookUserInterface
 
 //	/**
 //	 * @param string $fbId
-//	 * @return \FacebookLiteBundle\FacebookUserInterface
+//	 * @return \Aimchat\FacebookLiteBundle\FacebookUserInterface
 //	 */
 //	public function setFbId(string $fbId) :FacebookUserInterface;
 }

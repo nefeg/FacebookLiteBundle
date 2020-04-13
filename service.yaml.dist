@@ -10,5 +10,5 @@ services:
         arguments: [ '%facebook%' ]
 
     aimchat.facebook.manager:
-        class: FacebookLiteBundle\Service\FacebookService
+        class: Aimchat\FacebookLiteBundle\Service\FacebookService
         arguments: [ "@aimchat.facebook"]
